@@ -1,0 +1,9 @@
+{application, 'wired', [
+  {description, ""},
+  {vsn, "{{ app.vsn }}"},
+  {registered, []},
+  {applications, {{ app.std_apps + app.apps }}},
+  {modules, {{ modules }}},
+  {mod, {'wired_app', []}},
+  {env, []}
+]}.

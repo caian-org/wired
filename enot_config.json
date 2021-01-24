@@ -1,0 +1,10 @@
+{
+  "name": "wired",
+  "app_vsn": "0.0.1",
+  "with_source": true,
+  "deps": [],
+  "test_deps" : [],
+  "prebuild": [],
+  "build_vars": [],
+  "c_build_vars": []
+}
